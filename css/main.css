@@ -152,6 +152,10 @@ a:hover { color: var(--primary-color);}
     background-color: #e7ddc0;
 }
 
+.muted {
+    opacity: 0.5;
+}
+
 @media (min-width: 544px) {
     .steps {
         padding-top: 80px;
@@ -161,4 +165,8 @@ a:hover { color: var(--primary-color);}
     .steps__section-thumbnail {
         height: auto;
     }
+}
+
+.footer .border-highlight {
+    border-top: 1px solid var(--primary-color-highlight);
 }
